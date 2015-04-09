@@ -1,0 +1,53 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/antonybarnett/Documents/Stats Project/LOG_SUMMARIZE_DETAIL.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res} 8 Apr 2015, 12:37:34
+
+{com}. sum dly, detail
+
+                             {txt}dly
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-.2662733      -.2920179
+{txt} 5%    {res}-.1071041       -.266829
+{txt}10%    {res}-.0459726      -.2662733       {txt}Obs         {res}        256
+{txt}25%    {res}-.0141687      -.1691217       {txt}Sum of Wgt. {res}        256
+
+{txt}50%    {res} .0019327                      {txt}Mean          {res} .0019975
+                        {txt}Largest       Std. Dev.     {res} .0658337
+{txt}75%    {res} .0207155        .205977
+{txt}90%    {res} .0393372       .2686749       {txt}Variance      {res} .0043341
+{txt}95%    {res} .1202111       .2833784       {txt}Skewness      {res} .1037735
+{txt}99%    {res} .2686749       .2889445       {txt}Kurtosis      {res} 10.22398
+
+{com}. sum dgas, detail
+{err}variable dgas not found
+{txt}{search r(111):r(111);}
+
+{com}. sum dlsap, detail
+
+                            {txt}dlsap
+{hline 61}
+      Percentiles      Smallest
+ 1%    {res}-.1040316      -.1618743
+{txt} 5%    {res}-.0427146      -.1387177
+{txt}10%    {res}-.0234008      -.1040316       {txt}Obs         {res}        256
+{txt}25%    {res}-.0047405      -.0887012       {txt}Sum of Wgt. {res}        256
+
+{txt}50%    {res} .0007603                      {txt}Mean          {res} .0007498
+                        {txt}Largest       Std. Dev.     {res} .0311088
+{txt}75%    {res}  .007097       .0910397
+{txt}90%    {res} .0232224        .101552       {txt}Variance      {res} .0009678
+{txt}95%    {res}  .048388       .1250935       {txt}Skewness      {res}-.1230413
+{txt}99%    {res}  .101552       .1618743       {txt}Kurtosis      {res} 11.74217
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/antonybarnett/Documents/Stats Project/LOG_SUMMARIZE_DETAIL.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res} 8 Apr 2015, 12:38:03
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}

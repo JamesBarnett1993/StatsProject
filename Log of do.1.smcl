@@ -1,0 +1,50 @@
+{smcl}
+{com}{sf}{ul off}{txt}{.-}
+      name:  {res}<unnamed>
+       {txt}log:  {res}/Users/antonybarnett/Desktop/Stats Project/Log of do.1.smcl
+  {txt}log type:  {res}smcl
+ {txt}opened on:  {res}31 Mar 2015, 14:53:09
+
+{com}. run "/Users/antonybarnett/Desktop/Stats Project/do.1.do"
+. do "/Users/antonybarnett/Desktop/Stats Project/do.1.do"
+{txt}
+{com}. sum dlsap
+
+{txt}    Variable {c |}       Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 56}
+{space 7}dlsap {c |}{res}       256    .0007498    .0311088  -.1618743   .1618743
+{txt}
+{com}. sum dly
+
+{txt}    Variable {c |}       Obs        Mean    Std. Dev.       Min        Max
+{hline 13}{c +}{hline 56}
+{space 9}dly {c |}{res}       256    .0019975    .0658337  -.2920179   .2889445
+{txt}
+{com}. sktest dlsap
+{res}
+{col 21}{txt}Skewness/Kurtosis tests for Normality
+{col 58}{hline 7} joint {hline 6}
+{col 5}Variable {c |}    Obs   Pr(Skewness)   Pr(Kurtosis)  adj chi2(2)    Prob>chi2
+{hline 13}{c +}{hline 63}
+       dlsap {c |}{res}{col 17}  256{col 28}0.4106{col 43}0.0000{col 53}    41.12{col 71}0.0000
+{txt}
+{com}. sktest dly
+{res}
+{col 21}{txt}Skewness/Kurtosis tests for Normality
+{col 58}{hline 7} joint {hline 6}
+{col 5}Variable {c |}    Obs   Pr(Skewness)   Pr(Kurtosis)  adj chi2(2)    Prob>chi2
+{hline 13}{c +}{hline 63}
+         dly {c |}{res}{col 17}  256{col 28}0.4872{col 43}0.0000{col 53}    36.65{col 71}0.0000
+{txt}
+{com}. 
+. 
+{txt}end of do-file
+
+{com}. log close
+      {txt}name:  {res}<unnamed>
+       {txt}log:  {res}/Users/antonybarnett/Desktop/Stats Project/Log of do.1.smcl
+  {txt}log type:  {res}smcl
+ {txt}closed on:  {res}31 Mar 2015, 14:53:37
+{txt}{.-}
+{smcl}
+{txt}{sf}{ul off}
